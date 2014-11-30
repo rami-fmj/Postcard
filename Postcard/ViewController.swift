@@ -27,6 +27,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func btnSendMail(sender: UIButton) {
+        //Chequeo de condiciones.
         if sender.backgroundColor==UIColor.redColor() {
             sender.backgroundColor=UIColor.orangeColor()
             lblMessage.textColor=UIColor.redColor()
