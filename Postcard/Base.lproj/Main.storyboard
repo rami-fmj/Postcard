@@ -105,6 +105,15 @@
                                     <rect key="frame" x="209" y="147" width="103" height="100"/>
                                 </variation>
                             </imageView>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q7r-jy-Pns">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" name="Kailasa" family="Kailasa" pointSize="13"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="152" width="185" height="57"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -114,6 +123,7 @@
                                 <exclude reference="5d7-Ei-8Vr"/>
                                 <exclude reference="0Zl-y3-CKL"/>
                                 <exclude reference="QSG-1M-L6G"/>
+                                <exclude reference="Q7r-jy-Pns"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -123,11 +133,13 @@
                                 <include reference="5d7-Ei-8Vr"/>
                                 <include reference="0Zl-y3-CKL"/>
                                 <include reference="QSG-1M-L6G"/>
+                                <include reference="Q7r-jy-Pns"/>
                             </mask>
                         </variation>
                     </view>
                     <connections>
                         <outlet property="lblMessage" destination="5d7-Ei-8Vr" id="Xzp-Gv-jAA"/>
+                        <outlet property="lblName" destination="Q7r-jy-Pns" id="oBl-59-xhL"/>
                         <outlet property="mailButton" destination="4f9-ZT-Sgz" id="teG-Ll-tem"/>
                         <outlet property="txtMessage" destination="0Zl-y3-CKL" id="7a2-5u-gYc"/>
                         <outlet property="txtName" destination="uky-pq-gkg" id="DeI-Kw-q6A"/>
